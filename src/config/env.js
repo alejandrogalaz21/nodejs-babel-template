@@ -1,4 +1,4 @@
 import dotenv from 'dotenv'
+dotenv.config()
 
-export const getEnv = () =>
-  dotenv.config().error ? {} : dotenv.config().parsed
+export default {}
